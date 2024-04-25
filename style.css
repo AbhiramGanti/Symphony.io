@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .logo {
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 5s linear forwards;
+  }
+
+  .loading-spinner {
+    position: relative;
+    top: 90px;
+    left: -170PX;
+    background-color: transparent;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
