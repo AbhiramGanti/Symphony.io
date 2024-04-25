@@ -177,19 +177,35 @@ header .dropdown li:not(:last-child) {
 
 main {
     position: relative;
-    top: 50px;
-    padding: 20px;
+    width: 70%;
+    height: 900px;
+    margin: 100px;
+    top: 0px;
+    overflow: hidden;
+    z-index: -2; /* negative z-index value */
 }
 
 main h1 {
-    font-size: 6px;
-    margin-bottom: 20px;
+    font-family: Shrikhand, cursive;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
 }
 
 main h2 {
-    font-size: 24px;
-    margin-top: 40px;
+    font-family: Shrikhand, cursive;
+        font-size: 32px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 12px;
 }
+main p{
+    font-family: "proxima_nova_rgregular";
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.5;
+        margin-bottom: 24px;
+      }
 
 main ul {
     list-style-type: none;
