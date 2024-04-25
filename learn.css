@@ -99,21 +99,21 @@ body .banner_wraper{
     margin: 0 30px;
 }
 
-header .profile {
+.header .profile {
     margin-right: 65px;
     right: 25px;
 }
 
-header.profile img {
+.header.profile img {
     cursor: pointer;
 }
 
-header button {
+.header button {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-header button .img {
+.header button .img {
     border: 4px solid #333;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
     left: 0;
@@ -125,12 +125,12 @@ header button .img {
     overflow: visible;
 }
 
-header button:focus {
+.header button:focus {
     outline: none;
 }
 
-header button:focus .dropdown-menu,
-header button:hover .dropdown-menu {
+.header button:focus .dropdown-menu,
+.header button:hover .dropdown-menu {
     display: block;
 }
 
@@ -145,11 +145,11 @@ header button:hover .dropdown-menu {
     z-index: 1;
   }
 
-header .dropdown.show {
+.header .dropdown.show {
     display: block;
 }
 
-header .dropdown li {
+.header .dropdown li {
     margin: 0;
 }
 
@@ -170,12 +170,12 @@ header .dropdown li {
     font-family: Shrikhand, cursive;
 }
 
-header .dropdown li:not(:last-child) {
+.header .dropdown li:not(:last-child) {
     margin-bottom: 5px;
 }
 
 
-main {
+.main {
     position: relative;
     width: 70%;
     height: 900px;
@@ -185,21 +185,22 @@ main {
     z-index: -2; /* negative z-index value */
 }
 
-main h1 {
+.main h1 {
     font-family: Shrikhand, cursive;
     font-size: 56px;
     color: rgb(255, 255, 255);
     margin-bottom: 16px;
 }
 
-main h2 {
+.main h2 {
     font-family: Shrikhand, cursive;
         font-size: 32px;
         font-weight: bold;
         color: #fff;
         margin-bottom: 12px;
 }
-main p{
+
+.main p{
     font-family: "proxima_nova_rgregular";
         font-size: 16px;
         color: #fff;
@@ -207,13 +208,13 @@ main p{
         margin-bottom: 24px;
       }
 
-main ul {
+.main ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-main li {
+.main li {
     margin-bottom: 10px;
 }
 
