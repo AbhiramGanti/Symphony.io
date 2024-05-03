@@ -217,3 +217,28 @@ body spline-viewer {
         margin-bottom: 24px;
       }
   
+      .scroll-container .getstarted {
+        display: block;
+        padding: 10px 20px;
+        color: #000000;
+        background-color: #DEFE47;
+        border: none;
+        font-size: 16px;
+        font-family: "Courier Prime", sans-serif; 
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    
+    .scroll-container .getstarted:hover {
+        background-color: transparent;
+        border: 2px solid #DEFE47;
+        color: #DEFE47;
+    }
+    
+    .scroll-container .getstarted:active{
+        color: #000000;
+        background-color: #DEFE47;
+        border: none;
+    }
+
+  
