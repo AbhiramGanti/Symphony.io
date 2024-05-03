@@ -19,34 +19,128 @@
                         <li><a href="#">Community</a></li>
                         <li><a href="#">Action Centre</a></li>
                     </ul>
-                    <li class="profile">
-                            <button id="dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-menu">
-                                <img src="Profile Btn.svg" alt="profile">
-                                <ul id="dropdown-menu">
-                                    <li>
-                                        <a href="#">My Account</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Settings</a>
-                                    </li> 
-                                    <li>
-                                        <a href="#">Logout</a>
-                                    </li>
-                                </ul>
-                            </button>
+
+                    <div class="profile">
+                        <button id="dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-menu">
+                            <img id="profile-img" src="Profile Btn.svg" alt="profile">
+                            <ul id="dropdown-menu">
+                                <li>
+                                    <a href="#">My Account</a>
+                                </li>
+                                <li>
+                                    <a href="#">Settings</a>
+                                </li> 
+                                <li>
+                                    <a href="home.html">Logout</a>
+                                </li>
+                            </ul>
+                        </button>
+                    </div>
                 </nav>
            </div>
         </header>
         <script type="module" src="https://unpkg.com/@splinetool/viewer@1.1.7/build/spline-viewer.js"></script>
 <spline-viewer url="https://prod.spline.design/bPYwwMtjEquGquHC/scene.splinecode"></spline-viewer>
     </section>
-    <section>
+    <section class="body_wraper">
         <main>
-            <h1>Empowering Climate Knowledge</h1>
-            <h2>Explore interactive modules based on 'The Climate Book' and embark on a journey of understanding and action.</h2>
-            <p>Welcome to the Symphony Learning Hub, your gateway to comprehensive and engaging climate change education. Here, you'll discover a curated collection of learning modules inspired by Greta Thunberg's 'The Climate Book'. Delve into the science, impacts, and solutions surrounding climate change through diverse formats, including text, multimedia, and interactive elements. Whether you're a climate novice or a seasoned advocate, our modules offer valuable insights and empower you to become a more informed and active participant in the fight for a sustainable future.</p>
+            <h1 class="fade-out">Empowering Climate <span>Knowledge</span></h1>
+            <h2 class="fade-out">Explore interactive modules based on <span>'The Climate Book'</span> and embark on a journey of understanding and action.</h2>
+            <p class="fade-out">Welcome to the Symphony <span>Learning Hub</span>, your gateway to comprehensive and engaging climate change education. Here, you'll discover a curated collection of learning modules inspired by Greta Thunberg's 'The Climate Book'. Delve into the science, impacts, and solutions surrounding climate change through diverse formats, including text, multimedia, and interactive elements. Whether you're a climate novice or a seasoned advocate, our modules offer valuable insights and empower you to become a more informed and active participant in the fight for a sustainable future.</p>
         </main>
     </section>
+
+    <section class="edu_wrapper">
+       <div class="cntr_wrapper">
+        <button class="filter-btn">
+            <i class="far fa-filter" style="color: #ffffff;"></i>
+        </button>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <input type="text" class="search-bar" placeholder="Search...">
+       </div>
+
+        <div class="glass-section">
+            <h1>Articles</h1>
+                <div id="cCarousel">
+                    <div class="arrow" id="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="arrow" id="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+              
+                  <div class="card-carousel-container">
+                    <div class="card-carousel-inner">
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 1</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 2</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 3</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 4</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 5</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 6</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 7</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 8</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 9</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 10</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 11</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                      <div class="card-carousel-item">
+                        <div class="title">Card Title 12</div>
+                        <a href="#" class="read-more">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+      </section>
+
+
     <script src="learn.js"></script>
 </body>
 </html>
